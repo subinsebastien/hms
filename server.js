@@ -6,7 +6,7 @@ function start(route, handle)	{
 	var server = http.createServer(function(request, response)	{
 		route(handle, request, response);
 	});
-	server.listen(8888);
+	server.listen(80);
 	console.log("Listening on port 8888");
 }
 
