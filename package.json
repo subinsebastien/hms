@@ -1,7 +1,7 @@
 {
   "name": "node-example",
   "version": "0.0.1",
-  "author": "Subin Sebastian",
+  "author": "Nintriva Wireless",
   "dependencies": {
     "express": "2.5.x"
   },
