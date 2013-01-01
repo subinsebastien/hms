@@ -31,7 +31,7 @@
 		<div class="container">
 		
 			<div class="row-fluid">
-			<div class="span10">
+			<div class="span12">
 				
 				<div class="hrclass"></div>
 				<div id="timeline" class="row-fluid">
