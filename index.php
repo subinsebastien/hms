@@ -31,14 +31,14 @@
 		<div class="container">
 		
 			<div class="row-fluid" style="margin-bottom:45px;">
-			<div class="span12">
+			<div class="span10">
 				
 				<div class="hrclass"></div>
 				<div id="timeline" class="row-fluid">
-					<div class="span2 offset1"><span class="badge">1</span><div class="badgetittle1">Add Hazard Details</div></div>
-					<div class="span2 offset1"><span class="badge">2</span><div class="badgetittle2">Description and details</div></div>
-					<div class="span2 offset1"><span class="badge">3</span><div class="badgetittle3">Share on Social Networks</div></div>
-					<div class="span2 offset1"><span class="badge">4</span><div class="badgetittle4">Complete!</div></div>
+					<div class="span3 offset1"><span class="badge">1</span><div class="badgetittle1">Add Hazard Details</div></div>
+					<div class="span3"><span class="badge">2</span><div class="badgetittle2">Description and details</div></div>
+					<div class="span3"><span class="badge">3</span><div class="badgetittle3">Share on Social Networks</div></div>
+					<div class="span2"><span class="badge">4</span><div class="badgetittle4">Complete!</div></div>
 				</div>
 			
 			</div> <!--end span 12-->
