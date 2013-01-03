@@ -1071,9 +1071,9 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
   display: inline-block;
-  height: 20px;
+  height: 25px;
   padding: 4px 6px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 14px;
   line-height: 20px;
   color: #555555;
@@ -1086,7 +1086,8 @@ input[type="color"],
 input,
 textarea,
 .uneditable-input {
-  width: 206px;
+ /* width: 206px;*/
+ width: 350px;
 }
 
 textarea {
@@ -6044,4 +6045,9 @@ a.badge:hover {
 #timeline{ margin-top:-12px;}
 .hrclass{ border:1px solid #030203;}
 .tittle{ margin-bottom: 35px; text-align: center;}
+.span2 p {font-size:16px;}
+.badgetittle1{ margin-left: -42px; font-weight:bold;}
+.badgetittle2{ margin-left: -56px; font-weight:bold;}
+.badgetittle3{ margin-left: -68px; font-weight:bold;}
+.badgetittle4{ margin-left: -20px; font-weight:bold;}
 
