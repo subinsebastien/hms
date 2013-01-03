@@ -33,7 +33,7 @@
 			<div class="row-fluid" style="margin-bottom:45px;">
 			<div class="span12">
 				
-				<div class="hrclass"></div>
+				<div class="hrclass=img-polaroid"></div>
 				<div id="timeline" class="row-fluid">
 					<div class="span2 offset1"><span class="badge">1</span><div class="badgetittle1">Add Hazard Details</div></div>
 					<div class="span2 offset1"><span class="badge">2</span><div class="badgetittle2">Description and details</div></div>
