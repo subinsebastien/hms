@@ -33,7 +33,7 @@
 			<div class="row-fluid" style="margin-bottom:45px;">
 			<div class="span12">
 				
-				<div class="hrclass=img-polaroid"></div>
+				<div class="hrclass"></div>
 				<div id="timeline" class="row-fluid">
 					<div class="span2 offset1"><span class="badge">1</span><div class="badgetittle1">Add Hazard Details</div></div>
 					<div class="span2 offset1"><span class="badge">2</span><div class="badgetittle2">Description and details</div></div>
@@ -45,9 +45,9 @@
 			</div> <!--end row-fluid-->
 				    
 			<div class="row-fluid">
-				<div class="span6">
+				<div class="span6 img-polaroid">
 				
-				<iframe width="568" height="467" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=200859496238237925369.0004d25f25ed9b9539bb3&amp;ie=UTF8&amp;t=m&amp;ll=10.019694,76.31773&amp;spn=0.020539,0.046348&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=200859496238237925369.0004d25f25ed9b9539bb3&amp;ie=UTF8&amp;t=m&amp;ll=10.019694,76.31773&amp;spn=0.020539,0.046348&amp;source=embed" style="color:#0000FF;text-align:left">HMS</a> in a larger map</small>
+				<iframe width="560" height="461" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=200859496238237925369.0004d25f25ed9b9539bb3&amp;ie=UTF8&amp;t=m&amp;ll=10.019694,76.31773&amp;spn=0.020539,0.046348&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=200859496238237925369.0004d25f25ed9b9539bb3&amp;ie=UTF8&amp;t=m&amp;ll=10.019694,76.31773&amp;spn=0.020539,0.046348&amp;source=embed" style="color:#0000FF;text-align:left">HMS</a> in a larger map</small>
 				
 				</div> 
 					    
