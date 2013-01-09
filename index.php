@@ -31,7 +31,7 @@
 		<div class="container">
 		
 			<div class="row-fluid" style="margin-bottom:45px;">
-			<div class="span10">
+			<div class="span11">
 				
 				<div class="hrclass"></div>
 				<div id="timeline" class="row-fluid">
@@ -41,7 +41,7 @@
 					<div class="span2"><span class="badge">4</span><div class="badgetittle4">Complete!</div></div>
 				</div>
 			
-			</div> <!--end span 12-->
+			</div> <!--end span 11-->
 			</div> <!--end row-fluid-->
 				    
 			<div class="row-fluid">
@@ -57,11 +57,13 @@
 				      <input type="text" value="" placeholder="Hazard tittle">
 			          <input type="text" value="" placeholder="Your Name">
 			          <input type="email" value="" placeholder="Your Email Address">
+			          <textarea rows="8" placeholder="Hazard description"></textarea>
 			          <input type="file" value="">
-			          <label class="checkbox">
+			          <br><br>
+			          <label id="checkbox" class="checkbox" style="float:left;">
 						<input type="checkbox"> I accept the T&C
 					   </label>
-					   <p><button class="btn btn-primary" type="button">Next</button></p>
+					   <p class="nextbutton" style="float:right;"><button class="btn btn-primary" type="button">Next</button></p>
 
 		    		</form>
 		    	</div> <!--end span 2-->
