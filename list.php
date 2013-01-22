@@ -48,12 +48,12 @@ curl_close($ch);
 //list the values
 
 foreach ($result as $list) {
-	
+	foreach ($list as $li) {
 	echo '<pre>';
-	print_r($list);
+	print_r($li);
 	
 	//echo $list['0'];
-	
+	}
 }
 
 ?>
