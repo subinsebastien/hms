@@ -52,7 +52,7 @@ foreach ($result as $list) {
 	echo '<pre>';
 	print_r($list);
 	
-	echo $list['0'][title];
+	//echo $list['0'];
 	
 }
 
