@@ -37,6 +37,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, '{}');
 
 $data = curl_exec($ch);
 $result = json_decode($data);
+echo '<pre>';
 print_r($result);exit;
 curl_close($ch);
 
