@@ -51,7 +51,7 @@ foreach ($result as $list) {
 	
 	print_r($list);
 	
-	echo $list['title'];
+	echo $list['0'];
 	
 }
 
