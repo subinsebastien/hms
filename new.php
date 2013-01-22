@@ -61,7 +61,7 @@
 if (isset($_POST)) {
 
 $data = json_encode($_POST);
-//print_r($data);exit;
+print_r($data);exit;
 
 $ch = curl_init();
 
