@@ -39,7 +39,7 @@ $data = curl_exec($ch);
 $result = json_decode($data);
 echo '<pre>';
 print_r($result);exit;
-echo $result['title'];
+print_r($result['title']);
 curl_close($ch);
 
 return $data;
