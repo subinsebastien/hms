@@ -41,19 +41,12 @@ $result = json_decode($data);
 
 echo '<pre>';
 
-print_r($result);
+print_r($result);exit;
 
 curl_close($ch);
 
-//return $result;
+return $result;
 
-foreach ($result as $value)
-	{
-		
-		echo $value['title'];
-	}
-
-?>
 
 ?>
 
