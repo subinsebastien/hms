@@ -45,14 +45,14 @@ $result = json_decode($data);
 
 curl_close($ch);
 
-//list the values
+//for listing the values
 
 foreach ($result as $list) {
 	foreach ($list as $li) {
 	echo '<pre>';
-	print_r($li->title);
-	
-	//echo $list['0'];
+	echo $li->title;
+	echo $li->reportedBy;
+	echo $li->description;
 	}
 }
 
