@@ -36,12 +36,16 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, '{}');
 // Finally let it run
 
 $data = curl_exec($ch);
+
 $result = json_decode($data);
+
 echo '<pre>';
+
 print_r($result);exit;
+
 curl_close($ch);
 
-return $data;
+return $result;
 
 ?>
 
