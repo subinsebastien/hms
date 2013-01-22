@@ -51,7 +51,9 @@ foreach ($result as $list) {
 	foreach ($list as $li) {
 	echo '<pre>';
 	echo $li->title;
+	echo '<br>';
 	echo $li->reportedBy;
+	echo '<br>';
 	echo $li->description;
 	}
 }
