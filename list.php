@@ -50,7 +50,7 @@ curl_close($ch);
 foreach ($result as $list) {
 	foreach ($list as $li) {
 	echo '<pre>';
-	print_r($li);
+	print_r($li->title);
 	
 	//echo $list['0'];
 	}
