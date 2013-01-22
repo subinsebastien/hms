@@ -87,9 +87,9 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 
 // Finally let it run
 
-$result = curl_exec($ch);
+$response = curl_exec($ch);
 
-print_r($result);
+print_r($response);
 curl_close($ch);
 
 }
