@@ -16,11 +16,11 @@
 
 <form action="new.php" method="POST">
 
-<label for="tittle">Tittle:</label>
+<label for="title">Title:</label>
 
 <br>
 
-<input type="text" name="tittle" value="<?php echo @$_POST['tittle']; ?>" placeholder="Tittle" ><br/>
+<input type="text" name="title" value="<?php echo @$_POST['title']; ?>" placeholder="Title" ><br/>
 
 <br>
 
@@ -28,7 +28,7 @@
 
 <br>
 
-<input type="text" name="name" value="<?php echo @$_POST['name'];?>" placeholder="Name" ><br/>
+<input type="text" name="reportedBy" value="<?php echo @$_POST['name'];?>" placeholder="Name" ><br/>
 
 <br>
 
@@ -36,7 +36,7 @@
 
 <br>
 
-<input type="email" placeholder="Email" name="email" value="<?php echo @$_POST['email'];?>" ><br/>
+<input type="email" placeholder="Email" name="reportedByEmail" value="<?php echo @$_POST['email'];?>" ><br/>
 
 <br>
 
@@ -50,7 +50,7 @@
 
 <br>
 
-<input type="submit" name="submit" value="Submit">
+<input type="submit" value="Submit">
 
 </form>
 
@@ -61,6 +61,7 @@
 if (isset($_POST)) {
 
 $data = json_encode($_POST);
+//print_r($data);exit;
 
 $ch = curl_init();
 
