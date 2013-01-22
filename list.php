@@ -39,14 +39,19 @@ $data = curl_exec($ch);
 
 $result = json_decode($data);
 
-echo '<pre>';
+//echo '<pre>';
 
-print_r($result);exit;
+//print_r($result);exit;
 
 curl_close($ch);
 
-return $result;
+//list the values
 
+foreach ($result as $list) {
+	
+	echo $list['title'];
+	
+}
 
 ?>
 
