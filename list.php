@@ -36,7 +36,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, '{}');
 // Finally let it run
 
 $data = curl_exec($ch);
-$result = json_encode($data);
+$result = json_decode($data);
 print_r($result);exit;
 curl_close($ch);
 
