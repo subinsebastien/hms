@@ -49,9 +49,10 @@ curl_close($ch);
 
 foreach ($result as $list) {
 	
+	echo '<pre>';
 	print_r($list);
 	
-	echo $list['0'];
+	//echo $list['0'];
 	
 }
 
