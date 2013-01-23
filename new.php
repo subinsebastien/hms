@@ -52,7 +52,7 @@ print_r($response);
 curl_close($ch);
 
 }
-
+header('Refresh: 5; URL=http://yoursite.com/page.php');
 ?>
 
 </body>
