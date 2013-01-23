@@ -4449,6 +4449,9 @@ input[type="submit"].btn.btn-mini {
   -webkit-border-radius: 15px;
      -moz-border-radius: 15px;
           border-radius: 15px;
+          
+          width:220px;
+          height:20px;
 }
 
 .navbar-static-top {
@@ -6056,6 +6059,30 @@ a.badge:hover {
 #checkbox{ float: left;}
 .nextbutton{ float: right; margin-right: 100px;}
 
-.map{float:left;}
+.map {
+	float:left;
+	}
 
-.hazzard-form{ float: right;}
+.hazzard-form {
+	float: right;
+	
+	}
+
+.searchform { 
+	height: 50px;
+	
+	}
+.hazzard-content {
+ 	border:1px solid red;
+ 	
+	}
+.hazzard-img {
+	border:1px solid red;float: left;
+    height: 205px;
+    width: 255px;
+    
+    }
+.hazzard-list {
+	border:1px solid red;
+	
+	}
