@@ -6096,8 +6096,12 @@ a.badge:hover {
 	
 	}
 .hazzard-title{
-	
+	float: left;
+    width: 550px;
+    
 	}
 .viewmap{
-	
+	float: right;
+    margin-right: 25px;
+    
 	}
