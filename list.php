@@ -28,7 +28,6 @@
     
     <div class="hazzard-content">
     
-    <div class="hazzard-img"></div>
     <?php
 
 		$ch = curl_init();
@@ -63,6 +62,7 @@
 		foreach ($result as $list) {
 			foreach ($list as $li) {
 			//echo '<pre>';
+			echo '<div class="hazzard-img"></div>';
 			echo '<div class="hazzard-list">';
 			echo $li->title;
 			echo '<br>';
@@ -70,6 +70,7 @@
 			echo '<br>';
 			echo $li->description;
 			echo '</div>';
+			echo '<br>';
 			}
 		}
 		
