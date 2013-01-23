@@ -6073,7 +6073,8 @@ a.badge:hover {
 	
 	}
 .hazzard-content {
- 	
+ 	height: 205px;
+    margin-top: 25px;
  	
 	}
 .hazzard-img {
@@ -6084,6 +6085,7 @@ a.badge:hover {
     }
 .hazzard-list {
 	border:1px solid red;
+	float: right;
 	height: 205px;
 	width: 670px;
 	
