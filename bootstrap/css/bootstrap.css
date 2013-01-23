@@ -6074,18 +6074,20 @@ a.badge:hover {
 	
 	}
 .hazzard-content {
+	border:1px solid red;
  	height: 205px;
     margin-top: 25px;
  	
 	}
 .hazzard-img {
-	border:1px solid red;float: left;
+	/*border:1px solid red;*/
+	float: left;
     height: 205px;
     width: 255px;
     
     }
 .hazzard-list {
-	border:1px solid red;
+	/*border:1px solid red;*/
 	float: right;
 	height: 205px;
 	width: 670px;
