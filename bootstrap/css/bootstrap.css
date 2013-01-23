@@ -6046,7 +6046,7 @@ a.badge:hover {
 
 /* added by nintriva*/
 
-.header {margin: 0 auto; width: 863px; }
+.header {margin: 0 auto; width: 863px; margin-bottom: 25px;}
 
 #timeline{ margin-top:-12px;}
 .hrclass{ border:1px solid #030203;}
