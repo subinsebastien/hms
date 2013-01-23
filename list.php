@@ -57,5 +57,4 @@ foreach ($result as $list) {
 ?>
 
 </body>
-</head>
 </html>
