@@ -746,7 +746,7 @@ h3 {
 }
 
 h1 {
-  font-size: 49.5px;
+  font-size: 38.5px;
 }
 
 h2 {
@@ -1071,10 +1071,11 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
   display: inline-block;
-  height: 40px;
+  	height: 40px;
+  /*height: 20px;*/
   padding: 4px 6px;
-  margin-bottom: 20px;
-  font-size: 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
   line-height: 20px;
   color: #555555;
   vertical-align: middle;
@@ -1086,8 +1087,8 @@ input[type="color"],
 input,
 textarea,
 .uneditable-input {
- /* width: 206px;*/
- width: 455px;
+	width:380px;
+  /*width: 206px;*/
 }
 
 textarea {
@@ -6042,6 +6043,8 @@ a.badge:hover {
 
 /* added by nintriva*/
 
+.header {margin: 0 auto; width: 863px; }
+
 #timeline{ margin-top:-12px;}
 .hrclass{ border:1px solid #030203;}
 .tittle{ margin-bottom: 35px; color: #FFFFFF; font-size: 384.615%; letter-spacing: -1px; text-align: center; text-shadow: 0 0 5px rgba(0, 0, 0, 0.75);}
@@ -6053,3 +6056,6 @@ a.badge:hover {
 #checkbox{ float: left;}
 .nextbutton{ float: right; margin-right: 100px;}
 
+.map{float:left;}
+
+.hazzard-form{ float: right;}
