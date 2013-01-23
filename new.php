@@ -52,7 +52,7 @@ print_r($response);
 curl_close($ch);
 
 }
-header('Refresh: 5; URL=http://hms.pagodabox.com/list.php');
+header('Refresh: 1; URL=http://hms.pagodabox.com/list.php');
 ?>
 
 </body>
