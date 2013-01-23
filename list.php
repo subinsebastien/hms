@@ -64,7 +64,8 @@
 		foreach ($result as $list) {
 			foreach ($list as $li) {
 			//echo '<pre>';
-			//echo '<div class="hazzard-img"></div>';
+			echo '<div class="hazzard-img">';
+			echo '</div>';
 			echo '<div class="hazzard-list">';
 			echo $li->title;
 			echo '<br>';
