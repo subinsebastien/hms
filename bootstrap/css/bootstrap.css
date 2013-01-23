@@ -6057,7 +6057,8 @@ a.badge:hover {
 .badgetittle3{ margin-left: -68px; }
 .badgetittle4{ margin-left: -20px; }
 #checkbox{ float: left;}
-.nextbutton{ float: right; margin-right: 100px;}
+
+.nextbutton{ float: right;}
 
 .map {
 	float:left;
