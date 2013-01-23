@@ -6076,20 +6076,25 @@ a.badge:hover {
 .hazzard-content {
 	border:1px solid red;
  	height: 205px;
-    margin-top: 25px;
+    margin-top: 10px;
  	
 	}
 .hazzard-img {
-	/*border:1px solid red;*/
-	float: left;
-    height: 205px;
-    width: 255px;
+	border: 1px solid red;
+    float: left;
+    height: 183px;
+    margin: 10px;
+    width: 235px;
     
     }
 .hazzard-list {
 	/*border:1px solid red;*/
 	float: right;
 	height: 205px;
-	width: 670px;
+	width: 675px;
+	margin-top: 10px;
+	
+	}
+.hazzard-title{
 	
 	}

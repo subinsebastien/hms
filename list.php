@@ -64,16 +64,29 @@
 			foreach ($list as $li) {
 			//echo '<pre>';
 			echo '<div class="hazzard-content">';
+			
 			echo '<div class="hazzard-img">';
 			echo '</div>';
+			
 			echo '<div class="hazzard-list">';
+			
+			echo '<div class="hazzard-title">';
 			echo $li->title;
-			echo '<br>';
-			echo $li->reportedBy;
-			echo '<br>';
-			echo $li->description;
 			echo '</div>';
-			echo '</div>';//end of hazzard-content
+			
+			echo '<div class="viewmap"><button class="btn btn-primary" type="button">View Map</button></div>';
+			
+			echo '<br>';
+			
+			echo $li->reportedBy;
+			
+			echo '<br>';
+			
+			echo $li->description;
+			
+			echo '</div>'; //end of hazzard list
+			
+			echo '</div>'; //end of hazzard-content
 			}
 		}
 		
