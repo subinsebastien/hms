@@ -21,10 +21,12 @@
 <div class="container">
 
 	<div class="searchform">
-    <form class="navbar-search pull-right">
+    
+	<form class="navbar-search pull-right">
     <input type="text" class="search-query" placeholder="Search">
     </form>
-    </div>
+    
+    </div> <!--end of searchform-->
     
     <div class="hazzard-content">
     
@@ -75,8 +77,9 @@
 		}
 		
 	?>
-   </div> 
-</div>
+   </div> <!--end of hazzard-content-->
+   
+</div> <!--end of container-->
 
 </body>
 </html>
