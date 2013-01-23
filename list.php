@@ -73,7 +73,6 @@
 			echo '<br>';
 			echo $li->description;
 			echo '</div>';
-			echo '<br>';
 			}
 		}
 		
