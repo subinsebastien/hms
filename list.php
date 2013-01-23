@@ -28,7 +28,6 @@
     
     </div> <!--end of searchform-->
     
-    <div class="hazzard-content">
     
     <?php
 
@@ -64,6 +63,7 @@
 		foreach ($result as $list) {
 			foreach ($list as $li) {
 			//echo '<pre>';
+			echo '<div class="hazzard-content">';
 			echo '<div class="hazzard-img">';
 			echo '</div>';
 			echo '<div class="hazzard-list">';
@@ -73,11 +73,12 @@
 			echo '<br>';
 			echo $li->description;
 			echo '</div>';
+			echo '</div>';//end of hazzard-content
 			}
 		}
 		
 	?>
-   </div> <!--end of hazzard-content-->
+    
    
 </div> <!--end of container-->
 
