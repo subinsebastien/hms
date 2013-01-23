@@ -1,0 +1,4 @@
+Parse.Cloud.define("new", function(request, response)	{
+	response.success(request.params.title);
+[]
+});
