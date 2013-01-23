@@ -1,59 +1,68 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
+    <meta charset="utf-8">
+    <title>HMS</title>
+    <meta name="description" content="">
+    <!-- Le styles -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 
-<meta charset="utf-8">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-<title>HMS</title>
-
+    <!-- Le fav and touch icons -->
+    
 </head>
 
 <body>
+	
+	<div class="header">
+	
+		<h1>Hazzard Management System</h1>
+	
+	</div>
 
-<!-- Define a form to fill up and set correct parameter names -->
+    <div class="container">
+    	
+    	<div class="map img-polaroid"> <!--google map-->
+    	
+    	<iframe width="520" height="461" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=200859496238237925369.0004d25f25ed9b9539bb3&amp;ie=UTF8&amp;t=m&amp;ll=10.019694,76.31773&amp;spn=0.020539,0.046348&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=200859496238237925369.0004d25f25ed9b9539bb3&amp;ie=UTF8&amp;t=m&amp;ll=10.019694,76.31773&amp;spn=0.020539,0.046348&amp;source=embed" style="color:#0000FF;text-align:left">HMS</a> in a larger map</small>
+    	
+    	</div>
+    		
+    	<div class="hazzard-form"> <!-- Define a form to fill up and set correct parameter names -->
+    		
+    		<form  class="form-horizontal" action="http://hms.pagodabox.com/new.php" method="POST">
+    		
+			<br>
+			
+			<input type="text" name="title" placeholder="Title" ><br/>
+			
+			<br>
+			
+			<input type="text" name="reportedBy" placeholder="Name"><br/>
+			
+			<br>
+			
+			<input type="email" name="reportedByEmail" placeholder="Email"><br/>
+			
+			<br>
+			
+			<textarea name="description" placeholder="Description" rows="7"></textarea>
+			
+			<br>
+			
+			<br>
+			
+			<button class="btn btn-primary" type="submit">Next</button>
+			
+			</form>
+			
+    	</div>
 
-<form action="http://hms.pagodabox.com/new.php" method="POST">
-
-<label for="title">Title:</label>
-
-<br>
-
-<input type="text" name="title" placeholder="Title" ><br/>
-
-<br>
-
-<label for="name">Name:</label>
-
-<br>
-
-<input type="text" name="reportedBy" placeholder="Name"><br/>
-
-<br>
-
-<label for="email">Email:</label>
-
-<br>
-
-<input type="email" name="reportedByEmail" placeholder="Email"><br/>
-
-<br>
-
-<label for="description">Description:</label>
-
-<br>
-
-<textarea name="description" placeholder="Description"></textarea>
-
-<br>
-
-<br>
-
-<input type="submit" value="Submit">
-
-</form>
-
+    </div> <!--end of container-->
+    
 </body>
-
 </html>
