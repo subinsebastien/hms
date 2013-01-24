@@ -43,6 +43,7 @@ Parse.Cloud.define("new", function(request, response)	{
 
 Parse.Cloud.define("list", function(request, response)	{
 	var query = new Parse.Query(Parse.Object.extend("Hazard"));
+	query.descending("createdAt");
 	query.find(
 		{
 			success	: function(results)	{
