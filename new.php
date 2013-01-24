@@ -49,7 +49,7 @@ $response = curl_exec($ch);
 curl_close($ch);
 
 }
-header('Refresh: 1; URL=http://hms.pagodabox.com/list.php');
+header('URL=http://hms.pagodabox.com/list.php');
 ?>
 
 </body>
