@@ -19,7 +19,6 @@
 if (isset($_POST)) {
 
 $data = json_encode($_POST);
-print_r($data);
 
 $ch = curl_init();
 
@@ -47,12 +46,12 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 
 $response = curl_exec($ch);
 
-print_r($response);
-
 curl_close($ch);
 
 }
-header('Refresh: 5; URL=http://hms.pagodabox.com/list.php');
+
+header('URL=list.php');
+
 ?>
 
 </body>

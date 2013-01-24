@@ -58,7 +58,7 @@
 		
 		curl_close($ch);
 		
-		//for listing the values
+		//for listing the hazard details
 		
 		foreach ($result as $list) {
 			foreach ($list as $li) {
