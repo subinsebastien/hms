@@ -1,6 +1,6 @@
 web1: 
   php_max_execution_time: 600
-  name: hms        #component settings
+  name: hms-staging        #component settings
   document_root:
   php_version: 5.3.8
   php_extensions:
@@ -20,6 +20,3 @@ web1:
     - gd
     - freetype
     - http
-
-
-
