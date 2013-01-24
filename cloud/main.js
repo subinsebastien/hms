@@ -27,7 +27,8 @@ Parse.Cloud.define("new", function(request, response)	{
 			title : request.params.title,
 			reportedBy : request.params.reportedBy,
 			description : request.params.description,
-			reportedByEmail : request.params.email
+			reportedByEmail : request.params.reportedByEmail,
+			imageUrl : request.params.imageUrl
 		},
 		{
 			success : function(hazard)	{
