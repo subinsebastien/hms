@@ -49,7 +49,9 @@ $response = curl_exec($ch);
 curl_close($ch);
 
 }
-header('URL=http://hms.pagodabox.com/list.php');
+
+header('URL=list.php');
+
 ?>
 
 </body>
