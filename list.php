@@ -53,14 +53,12 @@
 		// Finally let it run
 		
 		$data = curl_exec($ch);
-		
-		$result = json_decode($data);
-		
+	
 		curl_close($ch);
 		
 		//for listing the values
 		
-		foreach ($result as $list) {
+		foreach ($data as $list) {
 			foreach ($list as $li) {
 			//echo '<pre>';
 			echo '<div class="hazzard-content">';
