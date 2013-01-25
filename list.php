@@ -66,6 +66,7 @@
 			echo '<div class="hazzard-content">';
 			
 			echo '<div class="hazzard-img">';
+			echo '<img src="'.$li->imageUrl.'"/>';
 			echo '</div>';
 			
 			echo '<div class="hazzard-list">';
