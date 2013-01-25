@@ -9,4 +9,6 @@ for you. If it sounds interesting, or if you have more appealing ideas, please j
 
 Parse Account : hms.opensource@gmail.com / [password]
 Gmail Account : hms.opensource@gmail.com / [password]
-PagodaBox Account : Username : opensource Password : [password]
+
+
+The Application is LIVE HERE [http://hms-staging.pagodabox.com/]
