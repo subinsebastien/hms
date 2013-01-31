@@ -5,7 +5,7 @@ $JSON_Data = json_decode($JSON);
 $views = $JSON_Data->{'entry'}->{'yt$statistics'}->{'viewCount'};
 
 //mail
-$deepak = "deepak@emdesic.com"
+$deepak = "deepak@emdesic.com";
 $subject = "Kumaran and Pornstar video has reached hits";
 $headers = "From: kumar@youtube.com" . "\r\n" . "CC: subinsebastien@gmail.com";
 //$text = " ";
