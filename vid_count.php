@@ -10,7 +10,7 @@ $subject = "Kumaran and Pornstar video has reached " . $views . " hits";
 $headers = "From: kumar@youtube.com" . "\r\n" . "CC: subinsebastien@gmail.com";
 //$text = " ";
 
-mail($deepak, $subject, "[".$views."]", $headers);
+mail($deepak, $subject, "", $headers);
 
 
 echo $views;
