@@ -49,5 +49,5 @@ if (isset($_POST)) {
 		}
 
 	}
-//header('Refresh:0;URL=list.php');	
+header('Refresh:0;URL=list.php');	
 ?>
