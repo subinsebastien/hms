@@ -27,9 +27,9 @@ if (isset($_POST)) {
 			curl_setopt($ch, CURLOPT_POSTFIELDS, file_get_contents($target_path));
             $response = curl_exec($ch);
             //get the image url 
-			$url = json_decode($response,true)['url'];
+			$url = json_decode($response,true);
 			$json = json_decode($data,true);
-			$json['imageUrl']=$url;
+			$json['imageUrl']=$url['url'];
 			$data = json_encode($json);
 			
 			//send the data
