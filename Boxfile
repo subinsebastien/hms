@@ -1,6 +1,8 @@
 web1: 
   php_max_execution_time: 600
   name: hms-staging        #component settings
+  shared_writable_dirs:
+    - var/cache
   document_root:
   php_version: 5.3.8
   php_extensions:

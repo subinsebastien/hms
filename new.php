@@ -7,7 +7,7 @@ if (isset($_POST)) {
 		$data = json_encode($_POST);
 		$appid ='uDAS1lt0f2SyOyL4XrgEtHBqZdxRlUpNVwlVBYdY';
 		$api_key='aVL9vXIQ2E5iOCsFfvgtMHj0Ldlr03aDdY3XcR24';
-		$target_path = "uploads/";
+		$target_path = "/var/cache/";
 		
 		$img =rand().basename( $_FILES['image']['name']);
 		$target_path = $target_path.$img;
