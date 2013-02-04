@@ -10,10 +10,8 @@ if (isset($_POST)) {
 		$target_path = "uploads/";
 		
 		$img =rand().basename( $_FILES['image']['name']);
-		$target_path=$target_path.$img;
-		print($target_path);
-//		chmod($target_path,0777);
-
+		$target_path = $target_path.$img;
+		
 
 		if(move_uploaded_file($_FILES['image']['tmp_name'],$target_path)) {
 			//send the image to server
@@ -25,11 +23,11 @@ if (isset($_POST)) {
 			curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 								    'X-Parse-Application-Id:'.$appid,
 								    'X-Parse-REST-API-Key:'.$api_key,
-								    'Content-Type: application/json'));
-			$response = curl_exec($ch);
-
+								    'Content-Type: image/jpeg'));
+			curl_setopt($ch, CURLOPT_POSTFIELDS, file_get_contents($target_path));
+            $response = curl_exec($ch);
+            //get the image url 
 			$url = json_decode($response,true)['url'];
-//print($url);
 			$json = json_decode($data,true);
 			$json['imageUrl']=$url;
 			$data = json_encode($json);
@@ -43,7 +41,7 @@ if (isset($_POST)) {
 								'X-Parse-REST-API-Key:'.$api_key,
 								'Content-Type: application/json'));
 			curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-//			$response = curl_exec($ch);
+			$response = curl_exec($ch);
 			curl_close($ch);
 
 		} else{
