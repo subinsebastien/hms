@@ -19,6 +19,11 @@ Parse.Cloud.define("new", function(request, response)	{
 		response.success("Hazard reporter email is missing");
 		return;
 	}
+
+	if(request.params.imageUrl == undefined)	{
+		response.success("Hazard image is missing");
+		return;
+	}
 	
 	var Hazard = Parse.Object.extend("Hazard");
 	var hazard = new Hazard();
