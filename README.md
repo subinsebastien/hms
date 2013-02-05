@@ -12,3 +12,18 @@ Gmail Account : hms.opensource@gmail.com / [password]
 
 
 The Application is LIVE HERE [http://hms-staging.pagodabox.com/]
+
+The data json may look like the following
+=========================================
+{
+	"title":"Hazard Title",
+	"reportedBy":"Some Person Name",
+	"description":"Hazard description",
+	"reportedByEmail":"some@mail.com",
+	"imageUrl":"http://someurl/sdbh/some.jpg",
+	"location":{
+		"latitude":10.239839823,
+		"longitude":13.123982937
+	}
+}
+
