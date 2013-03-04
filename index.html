@@ -30,8 +30,8 @@
                                   }
 
 	function updateMarkerPosition(latLng) {
-											document.getElementById('latitude').val =latLng.lat();
-											document.getElementById('longitude').val =latLng.lng();
+											document.getElementById('latitude').value =latLng.lat();
+											document.getElementById('longitude').value =latLng.lng();
 										   }
 
 
@@ -66,6 +66,8 @@
 
  // Onload handler to fire off the app.
  google.maps.event.addDomListener(window, 'load', initialize);
+
+
 </script>
 </head>
 <body>
@@ -111,8 +113,8 @@
 			
 			<br/>
 			<input type="file" name="image" placeholder="Image"><br/>
-			<input type="hidden" name="latitude" id="latitude" value="0">
-			<input type="hidden" name="longitude" id="longitude" value="0">
+			<input type="hidden" name="latitude" id="latitude">
+			<input type="hidden" name="longitude" id="longitude">
 			
 			<br/>
 			
@@ -122,7 +124,7 @@
 			
 			<br/>
 			<div class="nextbutton">
-			<button class="btn btn-primary" type="submit">Next</button>
+			<button class="btn btn-primary" id='sub' type="submit">Next</button>
 			</div>
 			</form>
 			

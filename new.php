@@ -25,7 +25,7 @@ if (isset($_POST)) {
 			$json = json_decode($data,true);
 			$json['imageUrl']=$url['url'];
 			$data = json_encode($json);
-			
+			echo $data;
 			//send the data
 			curl_setopt($ch, CURLOPT_URL, "https://api.parse.com/1/functions/new");
 			curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
@@ -38,7 +38,7 @@ if (isset($_POST)) {
 			$response = curl_exec($ch);
 			curl_close($ch);  
                         //all done , now lets go to list.php
-                       // header('Refresh:0;URL=list.php'); 
+                        header('Refresh:0;URL=list.php'); 
                    }
 
           else {
