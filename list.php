@@ -75,7 +75,7 @@
 			echo $li->title;
 			echo '</div>';
 			
-			echo '<div class="viewmap"><a href="https://maps.google.com/mapsq='.$li->latitude.'+'.$li->longitude.'('.$li->title')"><button class="btn btn-primary" type="button">View Map</button></a></div>';
+			echo '<div class="viewmap"><a href="https://maps.google.com/maps?q=)"><button class="btn btn-primary" type="button">View Map</button></a></div>';
 			
 			echo '<br>';
 			
