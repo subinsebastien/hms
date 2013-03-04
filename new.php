@@ -38,7 +38,8 @@ if (isset($_POST)) {
 			$response = curl_exec($ch);
 			curl_close($ch);  
                         //all done , now lets go to list.php
-                       // header('Refresh:0;URL=list.php'); }
+                       // header('Refresh:0;URL=list.php'); 
+                   }
 
           else {
                     //hmm.. image is not there , go to index page
