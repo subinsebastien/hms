@@ -37,11 +37,12 @@ if (isset($_POST)) {
 			curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 			$response = curl_exec($ch);
 			curl_close($ch);  
-                        header('Refresh:0;URL=list.php'); }
-               else {
-                   header('Refresh:0;URL=index.html');    
+                        //all done , now lets go to list.php
+                       // header('Refresh:0;URL=list.php'); }
+
+          else {
+                    //hmm.. image is not there , go to index page
+                    header('Refresh:0;URL=index.html');    
                 } 
 	}
-//ok baby go to new.php
-//header('Refresh:0;URL=index.html');	
 ?>
