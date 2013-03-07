@@ -6,24 +6,40 @@ upload a few images and mark the exact location in the map, share the issue with
 care (well, we don't know what to do otherwise) the app lets you make campaigns and you can along with your friends ask the officials to fix the issue
 for you. If it sounds interesting, or if you have more appealing ideas, please join us! :)
 
+- The latest code will be live here : [http://hms-staging.pagodabox.com/]
+- The project mockup will be kept updated here : [https://moqups.com/napster/M60UBHOu]
 
-Parse Account : hms.opensource@gmail.com / [password]
-Gmail Account : hms.opensource@gmail.com / [password]
-
-
-The Application is LIVE HERE [http://hms-staging.pagodabox.com/]
-
-The data json may look like the following
-=========================================
+JSON
+====
+The API supports JSON input of the following format. All the fields are necessary.
+```
 {
 	"title":"Hazard Title",
 	"reportedBy":"Some Person Name",
 	"description":"Hazard description",
 	"reportedByEmail":"some@mail.com",
 	"imageUrl":"http://someurl/sdbh/some.jpg",
-	"location":{
-		"latitude":10.239839823,
-		"longitude":13.123982937
-	}
+	"latitude":10.239839823,
+	"longitude":13.123982937
 }
+```
 
+Project Roadmap
+===============
+The roadmap for versions below alpha-4 is not available here. Please contact the developers for more information.
+
+Alpha - 5
+---------
+Staged changes
+- New user experience
+- List and common map in the home page
+- Thumbnail removal from list
+- Click on a list item to navigate to issue detail page
+- Name changed from ```HMS``` to ```Socialbugmash!```
+
+----------
+Developers
+==========
+- Hrishikesh K.B : [https://github.com/stultus]
+- Subin Sebastian : [https://github.com/subinsebastien]
+- Rahul K Raj : [https://github.com/rahulkraj]
