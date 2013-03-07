@@ -7,6 +7,7 @@ care (well, we don't know what to do otherwise) the app lets you make campaigns 
 for you. If it sounds interesting, or if you have more appealing ideas, please join us! :)
 
 The latest code will be live here : [http://hms-staging.pagodabox.com/]
+The project mockup will be kept updated here : [https://moqups.com/napster/M60UBHOu]
 
 JSON
 ====
