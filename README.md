@@ -37,7 +37,7 @@ Staged changes
 - Click on a list item to navigate to issue detail page
 - Name changed from ```HMS``` to ```Socialbugmash!```
 
-
+----------
 Developers
 ==========
 - Hrishikesh K.B : [https://github.com/stultus]
