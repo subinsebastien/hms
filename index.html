@@ -40,7 +40,8 @@
     var map = new google.maps.Map(document.getElementById('mapCanvas'), {
     			zoom: 8,
 			    center: latLng,
-			    mapTypeId: google.maps.MapTypeId.ROADMAP
+			    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                zoomControl:true
 			    });
   
     var marker = new google.maps.Marker({
@@ -78,8 +79,8 @@
     float: left;
   }
   #mapCanvas img { 
-4	  max-width: none;
-5	 }
+	  max-width: none;
+	 }
   </style>
   
 </head>
