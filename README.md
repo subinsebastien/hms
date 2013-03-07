@@ -25,7 +25,7 @@ JSON
 
 Project Roadmap
 ===============
-The roadmap for versions above alpha-4 is not available here. Please contact the developers for more information.
+The roadmap for versions below alpha-4 is not available here. Please contact the developers for more information.
 
 Alpha - 5
 ---------
