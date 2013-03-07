@@ -15,6 +15,7 @@ The Application is LIVE HERE [http://hms-staging.pagodabox.com/]
 
 The data json may look like the following
 =========================================
+```
 {
 	"title":"Hazard Title",
 	"reportedBy":"Some Person Name",
@@ -26,4 +27,4 @@ The data json may look like the following
 		"longitude":13.123982937
 	}
 }
-
+```
