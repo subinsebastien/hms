@@ -40,6 +40,6 @@ Staged changes
 
 Developers
 ==========
-Hrishikesh K.B : [https://github.com/stultus]
-Subin Sebastian : [https://github.com/subinsebastien]
-Rahul K Raj : [https://github.com/rahulkraj]
+- Hrishikesh K.B : [https://github.com/stultus]
+- Subin Sebastian : [https://github.com/subinsebastien]
+- Rahul K Raj : [https://github.com/rahulkraj]
