@@ -35,3 +35,4 @@ Staged changes
 - List and common map in the home page
 - Thumbnail removal from list
 - Click on a list item to navigate to issue detail page
+- Name changed from ```HMS``` to ```Socialbugmash!```
