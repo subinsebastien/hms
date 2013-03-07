@@ -25,6 +25,16 @@ Parse.Cloud.define("new", function(request, response)	{
 		return;
 	}
 	
+	if(request.params.latitude == undefined)	{
+		response.success("Hazard latitude is missing");
+		return;
+	}
+	
+	if(request.params.longitude == undefined)	{
+		response.success("Hazard longitude is missing");
+		return;
+	}
+	
 	var Hazard = Parse.Object.extend("Hazard");
 	var hazard = new Hazard();
 	hazard.save(
@@ -33,7 +43,9 @@ Parse.Cloud.define("new", function(request, response)	{
 			reportedBy : request.params.reportedBy,
 			description : request.params.description,
 			reportedByEmail : request.params.reportedByEmail,
-			imageUrl : request.params.imageUrl
+			imageUrl : request.params.imageUrl,
+			latitude : request.params.latitude,
+			longitude : request.params.longitude
 		},
 		{
 			success : function(hazard)	{
