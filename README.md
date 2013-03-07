@@ -11,6 +11,7 @@ for you. If it sounds interesting, or if you have more appealing ideas, please j
 
 JSON
 ====
+The API supports JSON input of the following format. All the fields are necessary.
 ```
 {
 	"title":"Hazard Title",
