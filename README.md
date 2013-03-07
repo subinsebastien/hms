@@ -6,8 +6,8 @@ upload a few images and mark the exact location in the map, share the issue with
 care (well, we don't know what to do otherwise) the app lets you make campaigns and you can along with your friends ask the officials to fix the issue
 for you. If it sounds interesting, or if you have more appealing ideas, please join us! :)
 
-The latest code will be live here : [http://hms-staging.pagodabox.com/]
-The project mockup will be kept updated here : [https://moqups.com/napster/M60UBHOu]
+- The latest code will be live here : [http://hms-staging.pagodabox.com/]
+- The project mockup will be kept updated here : [https://moqups.com/napster/M60UBHOu]
 
 JSON
 ====
@@ -18,10 +18,8 @@ JSON
 	"description":"Hazard description",
 	"reportedByEmail":"some@mail.com",
 	"imageUrl":"http://someurl/sdbh/some.jpg",
-	"location":{
-		"latitude":10.239839823,
-		"longitude":13.123982937
-	}
+	"latitude":10.239839823,
+	"longitude":13.123982937
 }
 ```
 
