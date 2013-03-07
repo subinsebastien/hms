@@ -23,3 +23,15 @@ JSON
 	}
 }
 ```
+
+Project Roadmap
+===============
+The roadmap for versions above alpha-4 is not available here. Please contact the developers for more information.
+
+Alpha - 5
+---------
+Staged changes
+- New user experience
+- List and common map in the home page
+- Thumbnail removal from list
+- Click on a list item to navigate to issue detail page
